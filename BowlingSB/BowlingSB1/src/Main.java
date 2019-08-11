@@ -7,10 +7,8 @@ public class Main {
 		String[] scoreBoard1 = new String[] {"5/","5/","5/","5/","5/","5/","5/","5/","5/","5/5"};
 		String[] scoreBoard2 = new String[] {"X","X","X","X","X","X","X","X","X","XXX"};
 		
-		System.out.println("Hallo");
 		ScoreCalculation score = new ScoreCalculation();
-		score.calculator(scoreBoard2);
-		System.out.println("Hadebra");
+		score.calculator(scoreBoard);
 	}
 
 }
